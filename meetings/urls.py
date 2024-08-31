@@ -1,8 +1,6 @@
-from rest_framework import routers
-from .api import MeetingViewSet
+from django.urls import path
+from .views import AvaliableEmployeeView
 
-router = routers.DefaultRouter()
-
-router.register('api/meetings', MeetingViewSet, 'meetings')
-
-urlpatterns = router.urls
+urlpatterns = [
+    path('available-times/', AvaliableEmployeeView.as_view(), name='available-times'),
+]
