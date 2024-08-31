@@ -1,5 +1,5 @@
 """
-ASGI config for condingchallengecm project.
+ASGI config for codingchallengecm project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'condingchallengecm.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'codingchallengecm.settings')
 
 application = get_asgi_application()

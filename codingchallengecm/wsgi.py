@@ -1,5 +1,5 @@
 """
-WSGI config for condingchallengecm project.
+WSGI config for codingchallengecm project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'condingchallengecm.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'codingchallengecm.settings')
 
 application = get_wsgi_application()
